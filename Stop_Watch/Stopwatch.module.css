@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    align-items: center;
+    background-image: url(../assets/hourglass.jpg); /*<a href="https://www.freepik.com/free-ai-image/time-flows-like-sand-hourglass-generated-by-ai_41410059.htm#query=hourglass%20wallpaper&position=1&from_view=keyword&track=ais&uuid=a46bd287-cf49-4843-8d63-bea04ee9e039">Image by vecstock on Freepik</a>*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    justify-content: center;
+    min-height: 90vh;
+    backdrop-filter: blur(7px);
+    
+}
+.stopWatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color: hsl(0, 0%, 30%);;
+    padding: 30px;
+    justify-content: center;
+}
+.display {
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px hsl(0, 0%, 50%);
+}
+.controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+.startBtn {
+    background-color: hsl(115, 100%, 40%);
+}
+.startBtn:hover {
+    background-color: hsl(115, 100%, 35%);
+}
+
+.stopBtn {
+    background-color: hsl(10, 90%, 50%);
+}
+.stopBtn:hover {
+    background-color: hsl(10, 90%, 45%);
+}
+
+.resetBtn {
+    background-color: hsl(205, 90%, 60%);
+}
+.resetBtn:hover {
+    background-color: hsl(205, 90%, 55%);
+}
